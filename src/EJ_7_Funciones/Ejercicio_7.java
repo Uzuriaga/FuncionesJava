@@ -9,5 +9,5 @@ package EJ_7_Funciones;
  * @author Junior
  */
 public class Ejercicio_7 {
-    
+
 }
