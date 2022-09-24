@@ -6,7 +6,7 @@ package EJ_16_Funciones;
 
 /**
  * 16. Crear una funcion que nos devuelva en un array todos los posibles
- * 
+ * divisores de un número
  *
  * @author Junior
  */
