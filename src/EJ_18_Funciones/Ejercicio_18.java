@@ -15,17 +15,17 @@ public class Ejercicio_18 {
     
     public static void main(String[] args) {
         int año = Integer.parseInt(JOptionPane.showInputDialog(null, "Introduzca un año"));
-        JOptionPane.showMessageDialog(null, esBiciesto(año));
+        JOptionPane.showMessageDialog(null, esBisiesto(año));
     }
 
-    private static String esBiciesto(int anio) {
-        if (anio<=0) {
-            return "No es biciesto";
+    private static String esBisiesto(int año) {
+        if (año<=0) {
+            return "Inserte un año valido";
         }
-        if (anio % 4 == 0 && (anio % 100 !=0 || anio % 400 == 0)) {
-            return  "Es biciesto";
+        if (año % 4 == 0 && (año % 100 !=0 || año % 400 == 0)) {
+            return  "Es bisiesto";
         }
-        return null;
+        return "No es biciesto";
         
     }
 }
